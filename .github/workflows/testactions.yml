@@ -1,0 +1,11 @@
+name: Test action
+on:
+  project_card:
+    types: [moved]
+jobs:
+  build:
+    name: yeaa
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo text
+        run: echo 'yeaaaa'
