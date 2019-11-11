@@ -4,7 +4,9 @@ on:
     types: [moved]
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    name: card moved
-    run: echo 'the card has moved'
+  job1:
+    name: job1
+      runs-on: ubuntu-latest
+      steps:
+        name: card moved
+        run: echo 'the card has moved'
