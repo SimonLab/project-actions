@@ -1,0 +1,10 @@
+name: label issues
+on:
+  project_card:
+    types: [moved]
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    name: card moved
+    run: echo 'the card has moved'
